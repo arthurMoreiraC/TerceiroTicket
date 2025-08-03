@@ -1,4 +1,4 @@
-
+--nao usei http service para reduzir o gasto de armazenamento com o JSONEncode, mas estou ciente que era uma alternativa melhor.
 local ProfileHandler = {}
 
 local ProfileStore = require(script.ProfileStore)

@@ -1,5 +1,5 @@
 --!strict
-
+--factory design pattern
 export type currencyType<T> = {
 	add: (self: any, amount: T) -> T,
 	remove: (self: any, amount: T) -> T,
